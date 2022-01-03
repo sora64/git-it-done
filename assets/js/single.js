@@ -65,7 +65,7 @@ let displayIssues = function(issues) {
         // create a type element
         let typeEl = document.createElement('span');
 
-        // check if issue is an acutal issue or a pull request
+        // check if issue is an actual issue or a pull request
         if (issues[i].pull_request) {
             typeEl.textContent = '(Pull request)';
         } else {
